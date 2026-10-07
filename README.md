@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quietly Backend
 
 Express + MongoDB Atlas API powering the Quietly spam shield app.
@@ -58,3 +59,6 @@ checks for:
 When a match is found, both items get `isCoordinatedThreat: true` and are
 cross-linked via `linkedIdentities`, which the dashboard can then surface
 as a "coordinated spam attempt" banner.
+=======
+# Quitelybackend
+>>>>>>> 03fac23afdd13ab960c02a3ca8690368c066362a
