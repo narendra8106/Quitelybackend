@@ -1,0 +1,22 @@
+{
+  "name": "quietly-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Quietly - unified spam shield across calls, SMS, and email",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.0",
+    "google-auth-library": "^9.11.0",
+    "natural": "^7.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
